@@ -18,8 +18,8 @@ export default function Why() {
                   </div>
                   <div className="col-md-8">
                     <div className="card-body">
-                      <h5 className="card-title">CONNECT YOUR WALLET</h5>
-                      <p className="card-text">Use Trust Wallet, Metamask or to connect to the app.</p>
+                      <h5 className="card-title">Variety of Formats:</h5>
+                      <p className="card-text">T20, One-Day, and Test matches to suit all players.</p>
                     </div>
                   </div>
                 </div>
@@ -33,8 +33,8 @@ export default function Why() {
                   </div>
                   <div className="col-md-8">
                     <div className="card-body">
-                      <h5 className="card-title">SELECT YOUR QUANTITY</h5>
-                      <p className="card-text">Upload your NFTs and set a title, description and price.</p>
+                      <h5 className="card-title">Professional Management:</h5>
+                      <p className="card-text">Expert handling of all tournament aspects.</p>
                     </div>
                   </div>
                 </div>
@@ -48,8 +48,8 @@ export default function Why() {
                   </div>
                   <div className="col-md-8">
                     <div className="card-body">
-                      <h5 className="card-title">CONFIRM TRANSACTION</h5>
-                      <p className="card-text">Earn ETH all your NFTs that you sell on our marketplace.</p>
+                      <h5 className="card-title">Top Facilities:</h5>
+                      <p className="card-text">Quality grounds, umpires, and equipment.</p>
                     </div>
                   </div>
                 </div>
@@ -58,7 +58,7 @@ export default function Why() {
             <div className="col-md-4">
               <div className="row justify-content-center">
                 <div className="col-md-12">
-                <img className="img-fluid center-img" src={require('../images/land-cta.png')} alt="center-img"/>          
+                <img className="img-fluid center-img" src="https://media0.giphy.com/media/vrqyMoYzHwTBXPS5BZ/giphy-downsized.gif" alt="center-img"/>          
                 </div>
               </div>
             </div>
@@ -72,8 +72,8 @@ export default function Why() {
                   </div>
                   <div className="col-md-8">
                     <div className="card-body">
-                      <h5 className="card-title">RECEIVE YOUR OWN NFTS</h5>
-                      <p className="card-text">Invest and manage all your NFTs at one place on one platform.</p>
+                      <h5 className="card-title">Affordable Packages:</h5>
+                      <p className="card-text">Cost-effective options with excellent</p>
                     </div>
                   </div>
                 </div>
@@ -87,8 +87,9 @@ export default function Why() {
                   </div>
                   <div className="col-md-8">
                     <div className="card-body">
-                      <h5 className="card-title">TAKE A MARKET TO SELL</h5>
-                      <p className="card-text">Discover, collect the right NFT collections to buy or sell.</p>
+                      <h5 className="card-title">Networking: 
+                      </h5>
+                      <p className="card-text">Great exposure and connections for players.</p>
                     </div>
                   </div>
                 </div>
@@ -102,8 +103,8 @@ export default function Why() {
                   </div>
                   <div className="col-md-8">
                     <div className="card-body">
-                      <h5 className="card-title">DRIVE YOUR COLLECTION</h5>
-                      <p className="card-text">We make it easy to Discover, Invest and manage.</p>
+                      <h5 className="card-title">Fair Play: </h5>
+                      <p className="card-text">Transparent scoring and unbiased matches.</p>
                     </div>
                   </div>
                 </div>

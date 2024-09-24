@@ -72,7 +72,7 @@ function Navbar() {
                     onClick={handleCloseMenu}
                     className="nav-link"
                   >
-                    Roadmap
+                    Testimonials
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -96,7 +96,7 @@ function Navbar() {
                     onClick={handleCloseMenu}
                     className="nav-link"
                   >
-                    Collection
+                    Register
                   </Link>
                 </li>
               </ul>

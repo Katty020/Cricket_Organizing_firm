@@ -21,31 +21,31 @@ export default function QnA() {
   const questions = [
     {
       id: 1,
-      question: "What is Nerko's NFT Collection?",
+      question: "What is Cricket Known Collection?",
       answer:
         "Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.",
     },
     {
       id: 2,
-      question: "How can we buy and invest in NFTs?",
+      question: "How can we buy and invest in Cricket?",
       answer:
         "Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.",
     },
     {
       id: 3,
-      question: "Why should we choose Nerko's NFT?",
+      question: "Why should we choose Playing Cricket?",
       answer:
         "Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.",
     },
     {
       id: 4,
-      question: "How secure is this token?",
+      question: "How secure is this Transction of fees",
       answer:
         "Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.",
     },
     {
       id: 5,
-      question: "What is your contract address?",
+      question: "What is your contact address?",
       answer:
         "Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.",
     }

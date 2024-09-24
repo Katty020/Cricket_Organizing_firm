@@ -16,7 +16,7 @@ export default function Roadmap() {
   return (
     <section className="roadmap">
       <div className="container-fluid">
-        <h1 className="roadmap-title">NERKO'S <span>ROADMAP</span></h1>
+        <h1 className="roadmap-title">Testimonials & <span>Reviews</span></h1>
         <div className="row">
           <div className="col-md-4">
             <div className="text-column">
@@ -25,31 +25,31 @@ export default function Roadmap() {
                   className={activeItem === 'NEW NFTS' ? 'active' : ''}
                   onClick={() => handleClick('NEW NFTS')}
                 >
-                  <span>01</span> NEW NFTS
+                  <span>01</span> Management
                 </li>
                 <li
                   className={activeItem === 'WHITELIST MINTING' ? 'active' : ''}
                   onClick={() => handleClick('WHITELIST MINTING')}
                 >
-                  <span>02</span> WHITELIST MINTING
+                  <span>02</span> Quality
                 </li>
                 <li
                   className={activeItem === 'WIRELAND NFT' ? 'active' : ''}
                   onClick={() => handleClick('WIRELAND NFT')}
                 >
-                  <span>03</span> WIRELAND NFT
+                  <span>03</span> Fair Play
                 </li>
                 <li
                   className={activeItem === 'METAVERSE' ? 'active' : ''}
                   onClick={() => handleClick('METAVERSE')}
                 >
-                  <span>04</span> METAVERSE
+                  <span>04</span> Networking
                 </li>
                 <li
                   className={activeItem === 'LAUNCH' ? 'active' : ''}
                   onClick={() => handleClick('LAUNCH')}
                 >
-                  <span>05</span> LAUNCH
+                  <span>05</span> Money
                 </li>
               </ul>
             </div>
@@ -59,66 +59,62 @@ export default function Roadmap() {
               <div className="card-body">
                 {activeItem === 'NEW NFTS' && (
                   <>
-                    <p className="card-phase">Phase 1</p>
-                    <h3 className="card-title">PLANNING</h3>
-                    <p className="card-text">Quality comes first. We took our time to plan out everything and build our production pipeline for high-quality artworks.</p>
+                    <p className="card-phase">Review 1</p>
+                    <h3 className="card-title"> Tournament Organization</h3>
+                    <p className="card-text">"The entire tournament was managed seamlessly. From scheduling to match coordination, everything was executed with professionalism."</p>
                     <hr />
                     <ul>
-                      <li><i className="bi bi-check-circle"></i> Release website and logo</li>
-                      <li><i className="bi bi-check-circle"></i> Grow community</li>
-                      <li><i className="bi bi-check-circle"></i> Launch the project</li>
+                      <li><i className="bi bi-check-circle"></i> By- Mahaveer Singh</li>
+                      
                     </ul>
                   </>
                 )}
                 {activeItem === 'WHITELIST MINTING' && (
                   <>
-                    <p className="card-phase">Phase 3</p>
-                    <h3 className="card-title">LAUNCH</h3>
-                    <p className="card-text">Our most active community members will be able to join the whitelist so they can discover, collect and sell their NFTs.</p>
+                    <p className="card-phase">Review 1</p>
+                    <h3 className="card-title">Quality of Facilities</h3>
+                    <p className="card-text"> "Fantastic facilities! The pitches were well-prepared, and the amenities for players were beyond expectations."</p>
                     <hr />
                     <ul>
-                      <li><i className="bi bi-check-circle"></i> Release website and logo</li>
-                      <li><i className="bi bi-check-circle"></i> Grow community</li>
-                      <li><i className="bi bi-check-circle"></i> Launch the project</li>
+                      <li><i className="bi bi-check-circle"></i> By- Devansh Saroja</li>
+                      
                     </ul>
                   </>
                 )}
                 {activeItem === 'WIRELAND NFT' && (
                   <>
-                    <p className="card-phase">Phase 5</p>
-                    <h3 className="card-title">TARGET</h3>
-                    <p className="card-text">Typesetting industry when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p className="card-phase">Review 1</p>
+                    <h3 className="card-title">Fair Play & Transparency</h3>
+                    <p className="card-text"> "The scoring system was transparent, and the umpires were unbiased. I really appreciated the fairness and integrity of the matches."</p>
                     <hr />
                     <ul>
-                      <li><i className="bi bi-check-circle"></i> Release website and logo</li>
-                      <li><i className="bi bi-check-circle"></i> Grow community</li>
-                      <li><i className="bi bi-check-circle"></i> Launch the project</li>
+                      <li><i className="bi bi-check-circle"></i>By- Rohan Kumar Savant</li>
+                      
                     </ul>
                   </>
                 )}
                 {activeItem === 'METAVERSE' && (
                   <>                    
-                    <p className="card-phase">Phase 7</p>
-                    <h3 className="card-title">COMMUNITY</h3>
-                    <p className="card-text">Quality comes first. We took our time to plan out everything and build our production pipeline for high-quality artworks.</p>
+                    <p className="card-phase">Review 1</p>
+                    <h3 className="card-title">Networking Opportunities</h3>
+                    <p className="card-text"> "Participating in the tournament was an amazing opportunity to connect with players from different teams."</p>
                     <hr />
                     <ul>
-                      <li><i className="bi bi-check-circle"></i> Release website and logo</li>
-                      <li><i className="bi bi-check-circle"></i> Grow community</li>
-                      <li><i className="bi bi-check-circle"></i> Launch the project</li>
+                      <li><i className="bi bi-check-circle"></i> By- Anurag Kumar Sharma</li>
+                      
                     </ul>                  
                   </>
                 )}
                 {activeItem === 'LAUNCH' && (
                   <>
-                    <p className="card-phase">Phase 9</p>
-                    <h3 className="card-title">PROJECT</h3>
-                    <p className="card-text">Quality comes first. We took our time to plan out everything and build our production pipeline for high-quality artworks.</p>
+                    <p className="card-phase">Review 1</p>
+                    <h3 className="card-title">Value for Money
+                    </h3>
+                    <p className="card-text"> "Great value for money! The organization provided a professional-level experience at an affordable price, making it accessible for players from all backgrounds."</p>
                     <hr />
                     <ul>
-                      <li><i className="bi bi-check-circle"></i> Release website and logo</li>
-                      <li><i className="bi bi-check-circle"></i> Grow community</li>
-                      <li><i className="bi bi-check-circle"></i> Launch the project</li>
+                      <li><i className="bi bi-check-circle"></i> By- Yuraj Singh Cauhan</li>
+                      
                     </ul>                  
                   </>
                 )}
@@ -130,66 +126,62 @@ export default function Roadmap() {
               <div className="card-body">
                 {activeItem === 'NEW NFTS' && (
                   <>
-                    <p className="card-phase">Phase 2</p>
-                    <h3 className="card-title">PRODUCTION</h3>
-                    <p className="card-text">Starting the production on the procedurally generated planets and the smart contract for minting.</p>
+                    <p className="card-phase">Review 2</p>
+                    <h3 className="card-title"> Tournament Organization</h3>
+                    <p className="card-text">"Impressed with how well-organized the event was! Matches started on time, and all the logistics were handled effortlessly."</p>
                     <hr />
                     <ul>
-                      <li><i className="bi bi-check-circle"></i> Release website and logo</li>
-                      <li><i className="bi bi-check-circle"></i> Grow community</li>
-                      <li><i className="bi bi-check-circle"></i> Launch the project</li>
+                      <li><i className="bi bi-check-circle"></i>By- Aryan Katiyar</li>
+               
                     </ul>
                   </>
                 )}
                 {activeItem === 'WHITELIST MINTING' && (
                   <>
-                    <p className="card-phase">Phase 4</p>
-                    <h3 className="card-title">MINTING</h3>
-                    <p className="card-text">Per-Sale Minting is opened for our Whitelisted members. The price for whitelist minting will be 0.5 SOL.</p>
+                    <p className="card-phase">Review 2</p>
+                    <h3 className="card-title">Quality of Facilities</h3>
+                    <p className="card-text"> "The cricket ground was in excellent condition, and the equipment provided was top-notch."</p>
                     <hr />
                     <ul>
-                      <li><i className="bi bi-check-circle"></i> Release website and logo</li>
-                      <li><i className="bi bi-check-circle"></i> Grow community</li>
-                      <li><i className="bi bi-check-circle"></i> Launch the project</li>
+                      <li><i className="bi bi-check-circle"></i> By- Tripendra Gada</li>
+                      
                     </ul>
                   </>
                 )}
                 {activeItem === 'WIRELAND NFT' && (
                   <>
-                    <p className="card-phase">Phase 6</p>
-                    <h3 className="card-title">RESEARCH</h3>
-                    <p className="card-text">A complete account of the system, and expound the actual teachings of the great explorer of the truth.</p>
+                    <p className="card-phase">Review 2</p>
+                    <h3 className="card-title">Fair Play & Transparency</h3>
+                    <p className="card-text">"Great emphasis on fair play! The use of technology for scoring and decision-making ensured that there were no disputes"</p>
                     <hr />
                     <ul>
-                      <li><i className="bi bi-check-circle"></i> Release website and logo</li>
-                      <li><i className="bi bi-check-circle"></i> Grow community</li>
-                      <li><i className="bi bi-check-circle"></i> Launch the project</li>
+                      <li><i className="bi bi-check-circle"></i>By- Sartaj UL Hasan</li>
+                      
                     </ul>
                   </>
                 )}
                 {activeItem === 'METAVERSE' && (
                   <>                    
-                    <p className="card-phase">Phase 8</p>
-                    <h3 className="card-title">PRODUCTION</h3>
-                    <p className="card-text">Starting the production on the procedurally generated planets and the smart contract for minting.</p>
+                    <p className="card-phase">Review 2</p>
+                    <h3 className="card-title">Networking Opportunities
+                    </h3>
+                    <p className="card-text">"It’s not just about the cricket but also about meeting like-minded individuals who share a passion for the game."</p>
                     <hr />
                     <ul>
-                      <li><i className="bi bi-check-circle"></i> Release website and logo</li>
-                      <li><i className="bi bi-check-circle"></i> Grow community</li>
-                      <li><i className="bi bi-check-circle"></i> Launch the project</li>
+                      <li><i className="bi bi-check-circle"></i>By- Ayush Singh Bhardwaj</li>
+                      
                     </ul>                  
                   </>
                 )}
                 {activeItem === 'LAUNCH' && (
                   <>
-                    <p className="card-phase">Phase 10</p>
-                    <h3 className="card-title">SECURITY</h3>
-                    <p className="card-text">Starting the production on the procedurally generated planets and the smart contract for minting.</p>
+                    <p className="card-phase">Review 2</p>
+                    <h3 className="card-title">Value for Money</h3>
+                    <p className="card-text"> "Absolutely worth every penny! The entry fee was reasonable, and the overall experience, from facilities to management, exceeded my expectations."</p>
                     <hr />
                     <ul>
-                      <li><i className="bi bi-check-circle"></i> Release website and logo</li>
-                      <li><i className="bi bi-check-circle"></i> Grow community</li>
-                      <li><i className="bi bi-check-circle"></i> Launch the project</li>
+                      <li><i className="bi bi-check-circle"></i> By- Amber Prasad</li>
+                      
                     </ul>                  
                   </>
                 )}
@@ -198,7 +190,10 @@ export default function Roadmap() {
           </div>
           <div className="row sponsors-row">
           <div className="col-12">
+          <h3 className="roadmap-title">Our sponsors</h3>
             <div className="sponsors">
+              
+              
               <img src={MetamaskLogo} alt="Metamask Logo" className="sponsor-logo" />
               <img src={BitgoLogo} alt="BitGO Logo" className="sponsor-logo" />
               <img src={CoinbaseLogo} alt="Coinbase Logo" className="sponsor-logo" />

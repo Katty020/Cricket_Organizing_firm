@@ -4,48 +4,48 @@ import "./Collection.css";
 export default function Collection() {
   const collections = [
     {
-      name: "#Polly Doll",
-      username: "@By TheSalvare",
+      name: "#Kanpur Kings",
+      username: "@By Rohan",
       profileImg: require("../images/04.jpg"),
       image1: require("../images/04.jpg"),
       image2: require("../images/08.jpg"),
       image3: require("../images/18.jpg"),
     },
     {
-      name: "#Metaverse",
-      username: "@By TheSalvare",
+      name: "#Goa Giants",
+      username: "@By Henry",
       profileImg: require("../images/19.jpg"),
       image1: require("../images/03.jpg"),
       image2: require("../images/01.jpg"),
       image3: require("../images/19.jpg"),
     },
     {
-      name: "#Alec Art",
-      username: "@Georgijevic",
+      name: "#Ludiyana Legends",
+      username: "@By Manpreet",
       profileImg: require("../images/05.jpg"),
       image1: require("../images/05.jpg"),
       image2: require("../images/11.jpg"),
       image3: require("../images/09.jpg"),
     },
     {
-      name: "#Toxic Poeth",
-      username: "@By Yayoi",
+      name: "#Chennai Super Lions",
+      username: "@By Mahendra",
       profileImg: require("../images/03.jpg"),
       image1: require("../images/13.jpg"),
       image2: require("../images/12.jpg"),
       image3: require("../images/15.jpg"),
     },
     {
-      name: "#Saphyre",
-      username: "@By CryptoX",
+      name: "#Gujrat Jordaar",
+      username: "@By Jethalal",
       profileImg: require("../images/01.jpg"),
       image1: require("../images/16.jpg"),
       image2: require("../images/17.jpg"),
       image3: require("../images/14.jpg"),
     },
     {
-      name: "By CryptoX",
-      username: "@By Texira",
+      name: "#Bengal Riders",
+      username: "@By Tantrik",
       profileImg: require("../images/10.jpg"),
       image1: require("../images/10.jpg"),
       image2: require("../images/02.jpg"),
@@ -58,8 +58,8 @@ export default function Collection() {
       <div className="container-fluid">
         <div className="row">
           <h1>
-            COLLECTION<br></br>
-            <span>BY ARTIST</span>
+            Popular <br></br>
+            <span>Registered Teams</span>
           </h1>
         </div>
         <div className="row">

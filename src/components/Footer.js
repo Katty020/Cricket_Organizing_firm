@@ -44,14 +44,14 @@ export default function Footer() {
         <div className="row">
           <div className="join-us">
             <h1>
-              JOIN US VIA
+              Create & Register 
               <br />
-              <span>DISCORD</span>
+              <span>Your Team Now</span>
             </h1>
-            <p className="subtitle">Invest and manage all your NFTs at one place.</p>
+            <p className="subtitle">Ready to join the action? Click the link below to create and register your team</p>
             <div className="cta">
-              <a href="https://discord.gg/3Qq9VJ6Z" target="_blank" rel="noopener noreferrer">
-                Join Discord
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSe34TjpCtshwdKjeNRWkGG3Ym-cB8khn0atEBseK0ybJa9bNw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">
+                Create Team
               </a>
             </div>
           </div>
@@ -68,8 +68,8 @@ export default function Footer() {
             ))}
           </ul>
 
-          <p className="copy">© 2023 Nerko. All rights reserved.</p>
-          <p className="credit">Coded with 💜 by <a href="https://github.com/s-shemmee" target="_blank" rel="noopener noreferrer">@s-shemmee</a></p>
+          <p className="copy">© 2024 XYZ Cricket. All rights reserved.</p>
+          <p className="credit">Coded with 💜 by <a href="https://github.com/Katty020" target="_blank" rel="noopener noreferrer">@Aryan-katiyar</a></p>
         </div>
       </div>
     </section>

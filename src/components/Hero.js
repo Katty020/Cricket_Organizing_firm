@@ -33,7 +33,7 @@ export default function Hero() {
           <div className="container panel">
             <div className="row">
               <div className="col">
-                <img className="img secondary-image" src="https://img.freepik.com/premium-vector/cricket-sports-cartoon-colored-clipart_576561-6797.jpg?w=2000" alt="01" />
+                <img className="img secondary-image" src="https://media.tenor.com/YdDCp6k6484AAAAi/ipl-x-cricket-x.gif" alt="01" />
               </div>
               <div className="col">
                 <img className="img tertiary-image" src="https://tse2.mm.bing.net/th?id=OIP.A5rN3PXQZhk1taBrnYcRHwHaEK&pid=Api&P=0&h=180" alt="02" />
@@ -47,7 +47,7 @@ export default function Hero() {
                 <img className="img tertiary-image" src="https://tse1.mm.bing.net/th?id=OIP.zm8dELIOSDjZKefsxhsgBAHaFj&pid=Api&P=0&h=180" alt="06" />
               </div>
               <div className="col">
-                <img className="img secondary-image" src="http://clipart-library.com/images/yTkK6GyLc.jpg" alt="07" />
+                <img className="img secondary-image" src="https://media.tenor.com/K4mttbGHhDIAAAAi/ipl-x-cricket-x.gif" alt="07" />
               </div>
             </div>
           </div>

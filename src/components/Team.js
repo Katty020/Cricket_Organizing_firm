@@ -6,38 +6,14 @@ import "./Team.css";
 const teamMembers = [
   [
     {
-      name: "Steph Jobs",
-      jobTitle: "Artist",
+      name: "Aryan Katiyar",
+      jobTitle: "Founder",
       image: require("../images/04.jpg"),
     },
     {
-      name: "Andry Morays",
-      jobTitle: "Artist",
+      name: "Rajesh Katiyar",
+      jobTitle: "CEO",
       image: require("../images/08.jpg"),
-    },
-  ],
-  [
-    {
-      name: "Steve Allan",
-      jobTitle: "Artist",
-      image: require("../images/09.jpg"),
-    },
-    {
-      name: "John Clark",
-      jobTitle: "Artist",
-      image: require("../images/03.jpg"),
-    },
-  ],
-  [
-    {
-      name: "Alfonso Pedro",
-      jobTitle: "Artist",
-      image: require("../images/01.jpg"),
-    },
-    {
-      name: "Jasse Davy",
-      jobTitle: "Artist",
-      image: require("../images/10.jpg"),
     },
   ],
 ];
@@ -49,11 +25,11 @@ export default function Team() {
     <section className="team">
       <div className="container-fluid">
         <h1>
-          MEET <span>OUR TEAM</span>
+          MEET <span>OUR Founders</span>
         </h1>
         <div className="row">
           <div className="team-descreption col-2">
-            <p>Introducing Our Talented Crew</p>
+            <p>Introducing Our Founder and CEO</p>
           </div>
           <div className="carousel-container col-10">
             <Carousel
@@ -119,9 +95,7 @@ export default function Team() {
                           <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
                             <i className="bi bi-instagram"></i>
                           </a>
-                          <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
-                            <i className="bi bi-discord"></i>
-                          </a>
+                          
                         </div>
                       </div>
                     </div>
