@@ -28,7 +28,7 @@ export default function Hero() {
           </svg>
         </div>
         <div className="content">
-          <h1>Unite. .Play<br /><span>.Elevate Cricket</span></h1>
+          <h1>Unite. .Play<br /><span>.Elevate Cricket.</span></h1>
 
           <div className="container panel">
             <div className="row">
